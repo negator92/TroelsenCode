@@ -15,6 +15,6 @@ namespace IssuesWithNongenericCollections
             LastName = lastName;
         }
         public override string ToString()
-            => $"Name: {FirstName}, {LastName}, {Age}";
+            => $"Name: {FirstName} {LastName}, Age: {Age}";
     }
 }
