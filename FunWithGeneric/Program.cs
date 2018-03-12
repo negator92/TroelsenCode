@@ -11,6 +11,17 @@ namespace FunWithGeneric
             UseGenericStack();
             UseGenericQueue();
             UseSortedSet();
+            UseDictionary();
+        }
+
+        private static void UseDictionary()
+        {
+            Dictionary<string, Person> peopleDictionary = new Dictionary<string, Person>();
+            peopleDictionary.Add("Serj", new Person {FirstName = "Serj", LastName = "Ivanov", Age = 40});
+            peopleDictionary.Add("Anna", new Person {FirstName = "Anna", LastName = "Ivanova", Age = 38});
+            peopleDictionary.Add("Victor", new Person {FirstName = "Victor", LastName = "Ivanov", Age = 7});
+            Person serj = peopleDictionary["Serj"];
+            Console.WriteLine(serj);
         }
 
         static void UseSortedSet()
