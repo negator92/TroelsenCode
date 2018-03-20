@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunWithObservableCollection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericPoint", "GenericPoint\GenericPoint.csproj", "{2BF75A74-8708-4C34-A7B6-68F8419D2901}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDelegate", "SimpleDelegate\SimpleDelegate.csproj", "{FC08A3C0-48FB-4650-BCA5-800EC512B070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,18 @@ Global
 		{2BF75A74-8708-4C34-A7B6-68F8419D2901}.Release|x64.Build.0 = Release|Any CPU
 		{2BF75A74-8708-4C34-A7B6-68F8419D2901}.Release|x86.ActiveCfg = Release|Any CPU
 		{2BF75A74-8708-4C34-A7B6-68F8419D2901}.Release|x86.Build.0 = Release|Any CPU
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|x64.ActiveCfg = Debug|x64
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|x64.Build.0 = Debug|x64
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|x86.ActiveCfg = Debug|x86
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Debug|x86.Build.0 = Debug|x86
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|x64.ActiveCfg = Release|x64
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|x64.Build.0 = Release|x64
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|x86.ActiveCfg = Release|x86
+		{FC08A3C0-48FB-4650-BCA5-800EC512B070}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
