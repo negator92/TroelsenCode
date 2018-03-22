@@ -22,7 +22,26 @@ namespace CarDelegate
         private CarEngineHandler handlersList;
         public void RegisterWithCarEngine(CarEngineHandler methodToCall)
         {
-            handlersList = methodToCall;
+            handlersList += methodToCall;
+        }
+
+        public void Accelerate(int delta)
+        {
+            if (carIsDead)
+            {
+                if (handlersList != null)
+                    handlersList("Sorry, car is broken.");
+            }
+            else
+            {
+                CurrentSpeed += delta;
+                if (10 == (MaximumSpeed - CurrentSpeed) && handlersList != null)
+                    handlersList("Attention, be careful. Car looks dying.");
+                if (CurrentSpeed >= MaximumSpeed)
+                    carIsDead = true;
+                else
+                    Console.WriteLine($"Current speed is {CurrentSpeed}.");
+            }
         }
     }
 }
