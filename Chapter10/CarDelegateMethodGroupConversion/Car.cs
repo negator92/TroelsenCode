@@ -1,6 +1,6 @@
 using System;
 
-namespace CarDelegate
+namespace CarDelegateMethodGroupConversion
 {
     public class Car
     {
