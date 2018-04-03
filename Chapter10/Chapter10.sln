@@ -6,6 +6,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDelegate", "SimpleDel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarDelegate", "CarDelegate\CarDelegate.csproj", "{6614F17F-B524-4900-8CD3-ECC0C59C4BC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegates", "ActionAndFuncDelegates\ActionAndFuncDelegates.csproj", "{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,18 @@ Global
 		{6614F17F-B524-4900-8CD3-ECC0C59C4BC6}.Release|x64.Build.0 = Release|Any CPU
 		{6614F17F-B524-4900-8CD3-ECC0C59C4BC6}.Release|x86.ActiveCfg = Release|Any CPU
 		{6614F17F-B524-4900-8CD3-ECC0C59C4BC6}.Release|x86.Build.0 = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|x64.Build.0 = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Debug|x86.Build.0 = Debug|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|x64.ActiveCfg = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|x64.Build.0 = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF9FF665-07A5-48E7-BAB3-5F93F3D0A028}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
