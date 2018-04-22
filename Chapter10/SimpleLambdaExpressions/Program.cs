@@ -10,6 +10,24 @@ namespace SimpleLambdaExpressions
             Console.WriteLine("Fun with Lambdas");
             TraditionalDelegateSyntax();
             AnonymousMethodSyntax();
+            LambdaExpressionSyntax();
+        }
+
+        private static void LambdaExpressionSyntax()
+        {
+            List<int> ints = new List<int>();
+            ints.AddRange(new int[] {20, 1, 4, 8, 9, 44});
+
+            List<int> evenNumbers = ints.FindAll((i) =>
+            {
+                Console.WriteLine($"value of {nameof(i)} is currently: {i}");
+                bool isEven = ((i % 2) == 0);
+                return isEven;
+            });
+            
+            Console.WriteLine("\nHere are your even numbers:");
+            foreach(int number in evenNumbers)
+                Console.Write($"{number}\t");
         }
 
         private static void AnonymousMethodSyntax()
@@ -17,10 +35,7 @@ namespace SimpleLambdaExpressions
             List<int> ints = new List<int>();
             ints.AddRange(new int[] {20, 1, 4, 8, 9, 44});
 
-            List<int> evenNumbers = ints.FindAll(delegate(int i)
-            {
-                return (i % 2) == 0;
-            });
+            List<int> evenNumbers = ints.FindAll(i => (i % 2) == 0);
             Console.WriteLine("\nHere are your even numbers:");
             foreach (int number in evenNumbers)
                 Console.Write($"{number}\t");
