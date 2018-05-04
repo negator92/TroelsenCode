@@ -1,11 +1,16 @@
 using System.Collections;
-using System.Collections.Generic;
 
 namespace SimpleIndexer
 {
     public class PersonCollection : IEnumerable
     {
         private ArrayList arrayListPeople = new ArrayList();
+
+        public Person this[int index]
+        {
+            get => (Person)arrayListPeople[index];
+            set => arrayListPeople.Insert(index, value);
+        }
 
         public Person GetPerson(int position)
             => (Person)arrayListPeople[position];
@@ -21,7 +26,7 @@ namespace SimpleIndexer
         }
 
         public int Count { get => arrayListPeople.Count; }
-        
+
         // IEnumerator IEnumerable.GetEnumerator()
         IEnumerator IEnumerable.GetEnumerator()
             => arrayListPeople.GetEnumerator();
